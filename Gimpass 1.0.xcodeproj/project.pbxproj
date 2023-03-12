@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		8DF63BBA29BDB0F100A09EFB /* Gimpass_1_0App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF63BB929BDB0F100A09EFB /* Gimpass_1_0App.swift */; };
-		8DF63BBC29BDB0F100A09EFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF63BBB29BDB0F100A09EFB /* ContentView.swift */; };
+		8DF63BBC29BDB0F100A09EFB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF63BBB29BDB0F100A09EFB /* HomeView.swift */; };
 		8DF63BBE29BDB0F300A09EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF63BBD29BDB0F300A09EFB /* Assets.xcassets */; };
 		8DF63BC129BDB0F300A09EFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF63BC029BDB0F300A09EFB /* Preview Assets.xcassets */; };
+		8DF63BCC29BDB30200A09EFB /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DF63BCB29BDB30200A09EFB /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8DF63BB629BDB0F100A09EFB /* Gimpass 1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gimpass 1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF63BB929BDB0F100A09EFB /* Gimpass_1_0App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gimpass_1_0App.swift; sourceTree = "<group>"; };
-		8DF63BBB29BDB0F100A09EFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8DF63BBB29BDB0F100A09EFB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8DF63BBD29BDB0F300A09EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DF63BC029BDB0F300A09EFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DF63BCB29BDB30200A09EFB /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,11 @@
 			isa = PBXGroup;
 			children = (
 				8DF63BB929BDB0F100A09EFB /* Gimpass_1_0App.swift */,
-				8DF63BBB29BDB0F100A09EFB /* ContentView.swift */,
+				8DF63BCA29BDB29000A09EFB /* Views */,
+				8DF63BC929BDB28600A09EFB /* ViewModels */,
+				8DF63BC829BDB26400A09EFB /* Model */,
+				8DF63BC729BDB25500A09EFB /* resources */,
+				8DF63BCD29BDB51F00A09EFB /* services */,
 				8DF63BBD29BDB0F300A09EFB /* Assets.xcassets */,
 				8DF63BBF29BDB0F300A09EFB /* Preview Content */,
 			);
@@ -65,6 +71,43 @@
 				8DF63BC029BDB0F300A09EFB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DF63BC729BDB25500A09EFB /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DF63BCB29BDB30200A09EFB /* data.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		8DF63BC829BDB26400A09EFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8DF63BC929BDB28600A09EFB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8DF63BCA29BDB29000A09EFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8DF63BBB29BDB0F100A09EFB /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8DF63BCD29BDB51F00A09EFB /* services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF63BC129BDB0F300A09EFB /* Preview Assets.xcassets in Resources */,
+				8DF63BCC29BDB30200A09EFB /* data.json in Resources */,
 				8DF63BBE29BDB0F300A09EFB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DF63BBC29BDB0F100A09EFB /* ContentView.swift in Sources */,
+				8DF63BBC29BDB0F100A09EFB /* HomeView.swift in Sources */,
 				8DF63BBA29BDB0F100A09EFB /* Gimpass_1_0App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

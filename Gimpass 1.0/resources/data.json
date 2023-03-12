@@ -1,0 +1,169 @@
+[{
+        "description": [{
+            "point1": "1. who is this app for"
+        }, {
+            "point2": "2. how this app works"
+        }, {
+            "point3": "3. contact address"
+        }]
+    },
+    {
+        "cardView": [{
+                "name": "What is Giftedness",
+                "feature": true,
+                "id": 0,
+                "image": "IMG0",
+                "TheoryIMG": "TIMG0",
+                "content": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+                "name": "Significance",
+                "feature": true,
+                "id": 1,
+                "image": "IMG1",
+                "TheoryIMG": "TIMG1",
+                "content": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+                "name": "Identification",
+                "feature": true,
+                "id": 2,
+                "image": "IMG2",
+                "TheoryIMG": "TIMG2",
+                "content": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            },
+            {
+                "name": "Local Practice",
+                "feature": true,
+                "id": 3,
+                "image": "IMG3",
+                "TheoryIMG": "TIMG3",
+                "content": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            }
+        ]
+    },
+    {
+        "detailView": [{
+                "foundamental theories": [{
+                        "id": 0,
+                        "name": "Rnzulli",
+                        "theory": "Three-ring Conception of Giftedness Model",
+                        "IMG": "DIMG0",
+                        "description": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "content": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Gagné",
+                        "theory": "Differentiated Model of Gifts and Talents",
+                        "IMG": "DIMG1",
+                        "description": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "content": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Howard Gardner",
+                        "theory": "Theory of Multiple Intelligences",
+                        "IMG": "DIMG2",
+                        "description": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                        "content": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                    }
+                ]
+            },
+            {
+                "Identification": [{
+                        "theory": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                    },
+                    {
+                        "practice": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+                    },
+                    {
+                        "check list": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+                    }
+                ]
+            },
+            {
+                "special needs": [{
+                        "description": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                    },
+                    {
+                        "id": 0,
+                        "name": "Twice-Exceptional",
+                        "image": "SPNIMG0",
+                        "theory": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                        "characteristics": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                        "suggestion": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                    },
+                    {
+                        "id": 1,
+                        "name": "Underachievement",
+                        "image": "SPNIMG1",
+                        "theory": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                        "characteristics": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                        "suggestion": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Overexcitibilities",
+                        "image": "SPNIMG2",
+                        "theory": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                        "characteristics": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+                        "suggestion": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+                    }
+                ]
+            },
+            {
+                "classpractice": [{
+                        "id": 0,
+                        "name": "xxxx",
+                        "Image": "CPIMG0",
+                        "description": "XXXXXXXXXXXXXXXXXXXX",
+                        "procedure": [{
+                            "step1": "1.xxxxxxxxxxxxxxx"
+                        }, {
+                            "step2": "2.XXXXXXXXXXXX"
+                        }, {
+                            "step3": "3.XXXXXXXXXXXXXXX"
+                        }, {
+                            "step4": "4.XXXXXXXXXXXXXXXX"
+                        }],
+                        "suggestion": "XXXXXXXXXXXXXXXXXXXXXXX"
+                    },
+                    {
+                        "id": 1,
+                        "name": "xxxx",
+                        "Image": "CPIMG1",
+                        "description": "XXXXXXXXXXXXXXXXXXXX",
+                        "procedure": [{
+                            "step1": "1.xxxxxxxxxxxxxxx"
+                        }, {
+                            "step2": "2.XXXXXXXXXXXX"
+                        }, {
+                            "step3": "3.XXXXXXXXXXXXXXX"
+                        }, {
+                            "step4": "4.XXXXXXXXXXXXXXXX"
+                        }],
+                        "suggestion": "XXXXXXXXXXXXXXXXXXXXXXX"
+                    },
+                    {
+                        "id": 2,
+                        "name": "xxxx",
+                        "Image": "CPIMG2",
+                        "description": "XXXXXXXXXXXXXXXXXXXX",
+                        "procedure": [{
+                            "step1": "1.xxxxxxxxxxxxxxx"
+                        }, {
+                            "step2": "2.XXXXXXXXXXXX"
+                        }, {
+                            "step3": "3.XXXXXXXXXXXXXXX"
+                        }, {
+                            "step4": "4.XXXXXXXXXXXXXXXX"
+                        }],
+                        "suggestion": "XXXXXXXXXXXXXXXXXXXXXXX"
+                    }
+                ]
+            }
+        ]
+    }
+]
+

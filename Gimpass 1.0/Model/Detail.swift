@@ -6,31 +6,35 @@
 //
 
 import Foundation
+
 struct Detail: Decodable, Identifiable {
-    var description: [description]
-    var cardView: cardView
-    var detailView: detailView
+    var id: Int
+    var description: [Description]
+    var cards: [Cards]
+    var lists: Lists
 }
 
-struct description: Decodable, Identifiable  {
+struct Description: Decodable, Identifiable  {
+    var id: Int
     var point1: String
     var point2: String
     var point3: String
 }
-struct cardView : Decodable, Identifiable {
+struct Cards : Decodable, Identifiable {
+    var id: Int
     var name: String
     var feature: Bool
-    var id: Int
     var image: String
     var content: String
 }
-struct detailView : Decodable, Identifiable {
-    var fundamentalTheories: [fundamentalTheories]
-    var Identification: [Identification]
-    var specialneeds: [specialneeds]
-    var classpractice:[classpractice]
+struct Lists : Decodable, Identifiable {
+    var id: Int
+    var fundamentalTheories: [FundamentalTheories]
+    var Identification: Identification
+    var specialneeds: [Specialneeds]
+    var classpractice:[Classpractice]
 }
-struct fundamentalTheories : Decodable, Identifiable {
+struct FundamentalTheories : Decodable, Identifiable {
     var id: Int
     var name: String
     var theory: String
@@ -40,11 +44,12 @@ struct fundamentalTheories : Decodable, Identifiable {
 }
 
 struct Identification : Decodable, Identifiable {
+    var id: Int
     var theory: String
     var practice: String
     var checklist: String
 }
-struct specialneeds : Decodable, Identifiable {
+struct Specialneeds : Decodable, Identifiable {
     var description: String
     var id: Int
     var name: String
@@ -54,15 +59,16 @@ struct specialneeds : Decodable, Identifiable {
     var suggestion: String
 }
 
-struct classpractice : Decodable, Identifiable {
+struct Classpractice : Decodable, Identifiable {
     var id: Int
     var name: String
     var Image: String
     var description: String
-    var procedure: [procedure]
+    var procedure: [Procedure]
     var suggestion: String
 }
-struct procedure : Decodable, Identifiable {
+struct Procedure : Decodable, Identifiable {
+    var id: Int
     var step1: String
     var step2: String
     var step3: String

@@ -12,6 +12,9 @@
 		8DF63BBE29BDB0F300A09EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF63BBD29BDB0F300A09EFB /* Assets.xcassets */; };
 		8DF63BC129BDB0F300A09EFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DF63BC029BDB0F300A09EFB /* Preview Assets.xcassets */; };
 		8DF63BCC29BDB30200A09EFB /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8DF63BCB29BDB30200A09EFB /* data.json */; };
+		8DF63BCF29BDB5CD00A09EFB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF63BCE29BDB5CD00A09EFB /* CardView.swift */; };
+		8DF63BD129BDB70C00A09EFB /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF63BD029BDB70C00A09EFB /* Detail.swift */; };
+		8DF63BD329BDBD2000A09EFB /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF63BD229BDBD2000A09EFB /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		8DF63BBD29BDB0F300A09EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DF63BC029BDB0F300A09EFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DF63BCB29BDB30200A09EFB /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		8DF63BCE29BDB5CD00A09EFB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8DF63BD029BDB70C00A09EFB /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		8DF63BD229BDBD2000A09EFB /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,7 @@
 		8DF63BC829BDB26400A09EFB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8DF63BD029BDB70C00A09EFB /* Detail.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -91,6 +98,7 @@
 		8DF63BC929BDB28600A09EFB /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				8DF63BD229BDBD2000A09EFB /* ContentModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -99,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				8DF63BBB29BDB0F100A09EFB /* HomeView.swift */,
+				8DF63BCE29BDB5CD00A09EFB /* CardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +191,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DF63BBC29BDB0F100A09EFB /* HomeView.swift in Sources */,
+				8DF63BD329BDBD2000A09EFB /* ContentModel.swift in Sources */,
+				8DF63BCF29BDB5CD00A09EFB /* CardView.swift in Sources */,
+				8DF63BD129BDB70C00A09EFB /* Detail.swift in Sources */,
 				8DF63BBA29BDB0F100A09EFB /* Gimpass_1_0App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

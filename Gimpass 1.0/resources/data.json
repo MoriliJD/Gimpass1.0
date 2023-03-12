@@ -44,7 +44,7 @@
     },
     {
         "detailView": [{
-                "foundamental theories": [{
+                "fundamentalTheories": [{
                         "id": 0,
                         "name": "Rnzulli",
                         "theory": "Three-ring Conception of Giftedness Model",
@@ -78,12 +78,12 @@
                         "practice": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
                     },
                     {
-                        "check list": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
+                        "checklist": "CCCCCCCCCCCCCCCCCCCCCCCCCCCC"
                     }
                 ]
             },
             {
-                "special needs": [{
+                "specialneeds": [{
                         "description": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
                     },
                     {
